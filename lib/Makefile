@@ -1,4 +1,4 @@
-SUBDIRS = forbin
+SUBDIRS = plugin
 
 all_apps = $(SUBDIRS)
 
