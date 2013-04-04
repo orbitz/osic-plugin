@@ -1,12 +1,12 @@
 CAMLP4=
-OCAMLC_OPTS=-package unix,re,losic
+OCAMLC_OPTS=-package losic
 OCAMLOPT_OPTS=$(OCAMLC_OPTS)
 
 LIB_MODULES=
-NON_LIB_MODULES=forbin.ml
+NON_LIB_MODULES=example.ml
 
-BYTE_TARGETS=forbin.byte
-NATIVE_TARGETS=forbin.native
+BYTE_TARGETS=example.byte
+NATIVE_TARGETS=example.native
 
 .PHONY: all test
 
